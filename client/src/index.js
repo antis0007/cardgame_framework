@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
 import Game from './scenes/game.js';
 
-const config = {
+var newconfig = {
     type: Phaser.AUTO,
     scale: {
         mode: Phaser.Scale.FIT,
@@ -13,6 +13,6 @@ const config = {
         Game
     ]
 };
-export { config }
+export default {newconfig};
 
-const game = new Phaser.Game(config);
+const game = new Phaser.Game(newconfig);
