@@ -19,14 +19,9 @@ export class Player {
         this.board.PlaceCard(card)
     }
 
-    DiscardBottom(card, pile) {
+    Discard(card, deck) {
         // Adds Card to Discard Pile
-        pile.AddCardTop(card)
-    }
-
-    DiscardTop(card, pile) {
-        // Adds Card to Discard Pile
-        pile.AddCardBottom(card)
+        deck.AddCardTop(card)
     }
     
 }
