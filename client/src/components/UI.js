@@ -12,7 +12,6 @@ export default class UI {
                 console.log(config.components[i]);
                 //check if config.components[i] is text
                 if (config.components[i].hasOwnProperty('text')) {
-                    console.log("FOUND TEXT!!!")
                     this.buildGameText(config.components[i].text.pos, config.components[i].text.text, config.components[i].text.size);
                 }
             
