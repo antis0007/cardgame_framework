@@ -3,7 +3,7 @@ import UI from "../components/UI";
 //load config json and store it in a variable
 //let config = JSON.parse(require('../../config/config.json'));
 import custom_config from '../../config/config.json';
-
+import config from '../../src/index.js'
 console.log(custom_config);
 console.log("TEST");
 
